@@ -1,3 +1,35 @@
-a {
-           width: 100;
+body {
+    margin: 0 auto;
+}
+
+img {
+    max-width: 300px;
+}
+
+header {
+    align-items: center;
+    text-align: center;   
+
+    background-color: gray;
+    padding: 10px 15px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+section {
+    border-bottom: 1px solid #000;
+    padding: 0 15px;
+}
+
+footer {
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 100px;
 }
